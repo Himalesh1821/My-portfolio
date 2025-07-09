@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/d3a0f90fe4.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Himalesh .jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+             <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+       
+
+        <div class="header-text">
+            <p><span>FRONTEND</span> DEVELOPER</p>
+            <h1>Hi, I'm <span>Himalesh</span><br>from Madurai</h1>
+
+        </div>
+    </div>
+</div>
+<!-- -----------------------about--------------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/IMG_0857-removebg-preview.png" >
+            </div>
+            <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>I am a young creative fullstack developer who is actively dedicated to website creations and improving day-by-day my skills on web creation.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('SKILLS')">SKILLS</p>
+                    <p class="tab-links active-tab"  onclick="opentab('EDUCATION')">EDUCATION</p>
+                    
+                </div>
+                    <div class="tab-contents active-tab" id="SKILLS"> 
+                <ul>
+    
+                    <li><span>HTML</span></li>
+                    <li><span>JAVA</span></li>
+                    <li><span>CSS</span></li>
+                    <li><span>MYSQL</span></li>
+                    <li><span>JAVASCRIPT</span></li>
+                    <li><span>SPRINGBOOT</span></li>
+                </ul>
+                </div>
+                  <div class="tab-contents  active-tab" id="EDUCATION"> 
+                <ul>
+                    <li><span>2022-2025</span> <br>B.E SETHU INSTITUTE OF TECHNOLOGY 71%</li>
+                    <li><span>2019-2022</span><br>KLN MEMORIAL POLYTECHNIC COLLEGE 82%</li>
+                    <li><span>2018-2019</span><br>SETHUPATI HR SEC SCHOOL 50%</li>
+                </ul>
+                </div>
+        </div>
+        </div>
+    </div>
+</div>
+<!-- ----------------------sevices----------- -->
+ <div id="Services">
+    <div class="container">
+        <h1 class="sub-title">MY SERVICES</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>WEB DESIGN</h2>
+                <P>Fresher's digital world will immerse you in an imagination realistic thru my WEB DESIGN.</P>
+                <a href="http://127.0.0.1:5500/index.html#">Learn more</a> 
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX DESIGN</h2>
+                <P>Will provide a digital world imagination realistic by editing thru my UI/UX DESIGN.</P>
+                <a href="https://www.geeksforgeeks.org/techtips/user-experience-or-ux-design/">Learn more</a> 
+            </div>
+            <div>
+                <i class="fa-brands fa-js"></i>
+                <h2>APP DESIGN</h2>
+                <P>Let’s dive into the interesting journey of app design.</P>
+                <a href="https://www.w3schools.com/w3css/w3css_mobile.asp">Learn more</a> 
+            </div>
+        
+        </div> 
+
+    </div>
+
+ </div>
+
+ <!-- -----------------------------portfolio------------------------------- -->
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                        <img src="images/img 1.jpeg ">
+                        <div class="layer">
+                            <h3>Java developer:</h3>
+                            <p>If you want to build a portfolio with beautiful visuals and a few texts, you should consider using the fullPage.js.It will give your page a modern touch.</p>
+                            <a href="https://www.simplilearn.com/java-developer-job-description-article#java_developer_job_responsibilities"><i class="fa-solid fa-arrow-up-right-from-square"></i>CLICK THE LINK</a>
+                        </div>
+
+                </div>
+                <div class="work">
+                        <img src="images/img 2.jpeg">
+                        <div class="layer">
+                            <h3>frontend developer:</h3>
+                            <p>Front-end web of the graphical user interface of a website,through the use of HTML, CSS, and JavaScript. Front-end developers are responsible for behavior and visuals .</p>
+                             <a href="https://www.w3schools.com/whatis/whatis_frontenddev.asp"><i class="fa-solid fa-arrow-up-right-from-square"></i> CLICK THE LINK</a>
+                        </div>
+
+                </div>
+                <div class="work">
+                        <img src="images/img 3.jpeg">
+                        <div class="layer">
+                            <h3>backend developer:</h3>
+                            <p>Java has many useful tools and frameworks like Spring Boot,hibernate,help developers build backend applications quickly and efficiently.SpringBoot,it easy to create and APIs.</p>
+                             <a href="https://www.youtube.com/results?search_query=backend+tutorial"><i class="fa-solid fa-arrow-up-right-from-square"></i>CLICK THE LINK</a>
+                        </div>
+                </div>
+
+            </div>
+                <a href="https://www.w3schools.com/java/" class="btn">See more</a>
+
+        </div>
+
+    </div>
+<!-- -------------------------contact---------------------- -->
+        <div id="contact">
+         <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>himaleshhimal@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone-volume"></i>phn no: 9360225184</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/login.php/"><i class="fa-brands fa-facebook"></i></a>
+                         <a href="https://www.instagram.com/_.torque._drifter/"><i class="fa-brands fa-instagram"></i></a>
+                          <a href="www.linkedin.com/in/himalesh"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Himalesh MRG.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                    <div class="contact-right">
+                    <form  name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit"  class="btn btn2"> submit</button>
+                    </form>
+                    <span id="msg"></span>
+            </div>
+           </div> 
+         </div>
+         <div class="copyright">
+            <p>copyright &#169; himalesh. Made with<i class="fa-solid fa-heart"></i> by Easy tutorials</p>
+         </div>
+        </div>
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+     var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+             for(tablink of tablinks){
+             tablink.classList.remove("active-link")
+        }
+             for(tabcontent of tabcontents){
+             tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+    }
+      
+</script>
+<script>
+
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+     function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyeUbBGL21KA5V0yJTqol6g5VM_gvy_03ieKxgy-KnjRVHD236ZkICeF8vN93HLBtid/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent succesfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
